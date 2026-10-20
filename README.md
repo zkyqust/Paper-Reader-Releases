@@ -6,20 +6,7 @@
 
 [下载 VSIX 安装包](https://github.com/zkyqust/Paper-Reader-Releases/raw/refs/heads/main/paper-reader-local-0.10.65.vsix)
 
-## 使用 WPS 云盘或 OneDrive 跨设备阅读
-
-可以借助 **WPS 云盘、OneDrive 等支持本地文件夹双向同步的云盘客户端**，在多台电脑之间轮流使用同一个文献库。云盘负责传输文件，Paper Reader 读取各设备上同步后的本地目录；具体同步能力以所用系统、客户端版本和账号支持的功能为准。
-
-1. 将**整个文献库文件夹**加入云盘同步范围，同时同步 PDF、分类子文件夹及隐藏的 `.paper-reader/` 管理文件夹，不能只上传 PDF。
-2. 在另一台电脑上安装 Paper Reader，登录同一个云盘账号，将同一文献库完整同步到本地。使用按需下载时，先下载整个文献库；OneDrive 可将该文件夹设为“始终保留在此设备上”。
-3. 在每台电脑的 Paper Reader 中，分别选择该设备上的**本地同步文件夹**。两台电脑的本地路径可以不同。
-4. 切换设备前，确认 PDF 批注已保存，并手动保存需要保留的引用，再关闭文献阅读，等待当前设备上传完成；另一台设备也等待同步、下载完成后，再打开文献库继续阅读。
-
-随完整文献库同步的内容包括 PDF、已保存的批注、分类结构、显示名称、排序和已保存的引用。阅读标签会话、PDF 缓存及翻译 API 凭据等本机状态不会随文献库自动同步。
-
-跨设备使用建议采用“当前设备保存并同步完成，再到另一台设备打开”的方式，避免两台设备同时编辑同一文献库产生云盘冲突。插件中的回收站也属于文献库数据，应与 `.paper-reader/` 一起同步。
-
-同步设置可参考：[WPS 同步文件夹说明](https://www.wps.cn/learning/question/detail/id/330726)、[OneDrive 文件与文件夹同步说明](https://support.microsoft.com/en-us/onedrive/sync-your-computer-s-files-and-folders-with-onedrive)。
+支持借助 **WPS 云盘、OneDrive 等云盘同步文献库**，在不同设备间阅读论文、查看已保存的批注和引用。
 
 ## 主要功能
 
