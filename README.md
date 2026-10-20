@@ -2,9 +2,11 @@
 
 在 VS Code 中管理本地论文、阅读 PDF、保存批注与 BibTeX 引用。
 
-**当前版本：v0.10.65** · **支持 Windows / macOS** · **需要 VS Code 1.107 或更新版本**
+**当前版本：v0.10.66** · **支持 Windows / macOS** · **需要 VS Code 1.107 或更新版本**
 
-[下载 VSIX 安装包](https://github.com/zkyqust/Paper-Reader-Releases/raw/refs/heads/main/paper-reader-local-0.10.65.vsix)
+[下载 VSIX 安装包](https://github.com/zkyqust/Paper-Reader-Releases/raw/refs/heads/main/paper-reader-local-0.10.66.vsix) · [最新发行版](https://github.com/zkyqust/Paper-Reader-Releases/releases/latest)
+
+**升级提醒：v0.10.66 会自动升级文献库管理记录，使用同一文献库的设备和窗口都需要更新插件后再打开。**
 
 ## 特色功能
 
@@ -22,6 +24,8 @@
 1. **同步整个文献库**：将文献库放入云盘的本地同步文件夹，包含 **PDF、分类子文件夹和隐藏的 `.paper-reader/` 管理文件夹**。
 2. **在其他设备打开**：安装 Paper Reader，登录同一个云盘账号；**等待文献库完整下载后，在插件中打开该设备上的本地同步文件夹**。
 3. **切换设备前保存并同步**：保存批注和引用、关闭文献阅读，**等待云盘同步完成后再换设备继续阅读**，避免两台设备同时编辑同一文献库。
+
+**排序、显示名称、论文题目、分组和已保存的引用随文献库共享；PDF 识别缓存、文件时间和写入锁保留在本机。**
 
 ### 阅读与整理
 
@@ -47,7 +51,7 @@
 
 ## 安装与开始使用
 
-1. 下载本仓库中的 [paper-reader-local-0.10.65.vsix](https://github.com/zkyqust/Paper-Reader-Releases/raw/refs/heads/main/paper-reader-local-0.10.65.vsix)。
+1. 下载本仓库中的 [paper-reader-local-0.10.66.vsix](https://github.com/zkyqust/Paper-Reader-Releases/raw/refs/heads/main/paper-reader-local-0.10.66.vsix)。
 2. 打开 VS Code 的“扩展”面板，点击右上角 **… → 从 VSIX 安装…**，选择下载的文件。
 3. 安装或更新后，执行 **开发人员：重新加载窗口 / Developer: Reload Window**。
 4. 点击左侧书本图标 **文献阅读**，选择本地文献文件夹，再点击论文开始阅读。
