@@ -2,7 +2,7 @@
 
 在 VS Code 中管理本地论文、阅读和批注 PDF。支持 Windows 和 macOS。
 
-从 [最新发行版](https://github.com/zkyqust/Paper-Reader-Releases/releases/latest) 下载 VSIX。打开 VS Code 的「扩展」面板，点 `…` → **从 VSIX 安装**，安装后重新加载窗口。
+[直接下载 Paper Reader v0.10.85（VSIX）](https://github.com/zkyqust/Paper-Reader-Releases/releases/download/v0.10.85/paper-reader-local-0.10.85.vsix)。打开 VS Code 的「扩展」面板，点 `…` → **从 VSIX 安装**，安装后重新加载窗口。
 
 ## 管理和搜索论文
 
