@@ -2,17 +2,17 @@
 
 在 VS Code 中管理本地论文、阅读和批注 PDF。支持 Windows 和 macOS。
 
-## 设置本地 PDF 存放位置
+## 安装或更新
+
+[直接下载 Paper Reader v0.10.100（VSIX）](https://github.com/zkyqust/Paper-Reader-Releases/releases/download/v0.10.100/paper-reader-local-0.10.100.vsix)。打开 VS Code 的「扩展」面板，点 `…` → **从 VSIX 安装**，安装后重新加载窗口。
+
+## 打开本地文献文件夹
 
 **文献库文件夹就是 PDF 在电脑上的实际存放位置。** 安装插件后，在左侧「文献阅读」面板点 **打开本地文献文件夹**，选择一个空文件夹，或直接打开已有 PDF 的文件夹。以后导入的 PDF 会保存到这个文件夹或你选中的子文件夹。
 
 ![文献阅读侧栏的打开本地文献文件夹按钮和顶部文件夹图标](docs/guide/open-library-folder.png)
 
 **可以同时打开多个文献库。** 点击图中箭头指向的文件夹图标，可以继续添加其他文件夹，也可以在选择窗口里一次选中多个。已打开的文献库会一起显示在左侧，可以分别展开和阅读。
-
-## 安装或更新
-
-[直接下载 Paper Reader v0.10.100（VSIX）](https://github.com/zkyqust/Paper-Reader-Releases/releases/download/v0.10.100/paper-reader-local-0.10.100.vsix)。打开 VS Code 的「扩展」面板，点 `…` → **从 VSIX 安装**，安装后重新加载窗口。
 
 ## 导入 PDF
 
